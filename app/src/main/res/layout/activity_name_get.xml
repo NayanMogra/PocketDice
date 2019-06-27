@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NameGetActivity"
+    android:background="@drawable/color_font_context"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Player 1 Name"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_margin="28dp"/>
+    <EditText
+        android:layout_margin="28dp"
+            android:id="@+id/player1Name"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="34sp"/>
+    <TextView
+        android:layout_margin="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Player 2 Name"
+        android:textSize="34sp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_margin="28dp"
+        android:id="@+id/player2Name"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34sp"/>
+<Button
+    android:id="@+id/play"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Play"
+    android:background="@drawable/border"
+    android:textSize="24sp"
+    android:layout_margin="34dp"/>
+</LinearLayout>
